@@ -11,11 +11,11 @@ namespace Tyuiu.KubrikND.Sprint3.Task0.V22.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double value = 0.25;
+            double value = 0.75;
             int startValue = 1;
-            int stopValue = 8;
+            int stopValue = 14;
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
-            double wait = 31.328;
+            double wait = 0.005;
             Assert.AreEqual(wait, res);
 
 
